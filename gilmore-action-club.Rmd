@@ -418,7 +418,7 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 - [Open Science Framework (OSF)](http://osf.io): share non-identifiable materials, data
 - [RStudio](https://www.rstudio.com) or [Jupyter](http://jupyter.org) for reproducible notebooks, workflows, and analyses
 - [GitHub](http://github.com): share flat-files & code, version control
-- PSY 511 Spring 2016 course
+- PSY 511 Spring 2016 course, <https://github.com/psu-psychology/psy-5xx-reproducible-research>
 
 ## Keep in touch
 
