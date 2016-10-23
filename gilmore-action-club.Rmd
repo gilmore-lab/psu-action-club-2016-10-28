@@ -422,7 +422,10 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 
 ## Keep in touch
 
-- [Gilmore Lab site](http://gilmore-lab.github.io)
+- This talk: <https://github.com/gilmore-lab/psu-action-club-2016-10-28>
+- [Lab site](http://gilmore-lab.github.io)
+- [GitHub](http://github.com/gilmore-lab)
+- [Databrary](http://databrary.org/party/6)
 - Email: rogilmore@psu.edu
 
 ## References {.smaller}
