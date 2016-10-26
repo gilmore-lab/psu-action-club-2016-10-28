@@ -9,6 +9,7 @@ output:
     incremental: false
     widescreen: true
     smaller: false
+    logo: psu-logo.png
   html_document:
     keep_md: true
 ---
@@ -236,16 +237,22 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 - Radial & rotation != translation, phase and amplitude
 - Speed tuning (local and global)
 
-## [Comparing Adults' 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png)
+## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+</div>
+
+## [Adults' 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png)
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/adult/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
-## [To Children's](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
+## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png)
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
 ## [Adults' 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png)
@@ -254,22 +261,16 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/adult/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
-## [To Children's](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png)
+## [Children's 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
 ## [Adults' 1F2](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/adult/figX-channel-wise-effects-1.png)
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/adult/figX-channel-wise-effects-1.png" width="800px">
-</div>
-
-## [To Children's](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
-
-<div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
 ## Developmental Effects
@@ -314,54 +315,79 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 ## Children's responses *p*(correct)
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/analyses/img/p.corr.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.plot-1.png" height=450px>
 </div>
 
 ## Children's responses *p*(correct)
 
 | Predictor | Statistic | p-value |
 |-----------|-----------|---------|
-| Coherence | *F*(6,408)=83.3 | .00000 |
-| Pattern   | *F*(1,408)=70.1 | .00000 |
-| Speed     | *F*(1,408)=23.6 | .00000 |
-| Coh x Pattern | *F*(6,408)=4.9 | .00007 |
-| Coh x Speed | *F*(6,408)=3.08 | .0059 |
-| Coh x Patt x Spd | *F*(6,408)=1.33 | .2406 |
+| Coherence | *F*(1,408)=240.5 | .00000 |
+| Pattern   | *F*(1,428)=46.3 | .00000 |
+| Speed     | *F*(1,428)=12.87 | .00037 |
+| Coh x Pattern | *F*(1,428)=21.97 | .00000 |
 
-## Coherence x Pattern interaction
+## Speed effects in children
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/analyses/img/p.corr.by.pattern.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.by.spd.plot-1.png" height=450px>
 </div>
 
-## Coherence x Speed interaction
+## Pattern effects in children
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/analyses/img/p.corr.by.spd.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/coh.by.pattern.plot-1.png" height=450px>
+</div>
+
+## Adults' responses *p*(correct)
+
+| Predictor | Statistic | *p*-value |
+|-----------|-----------|---------|
+| Coherence | *F*(1,443)=426.87 | .00000 |
+| Pattern   | *F*(1,443)=6.56 | .012 |
+| Speed     | *F*(1,443)=2.79 | .099 |
+| Coh x Pattern | *F*(1,443)=17.01 | .00004 |
+
+## Speed effects in adults
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.by.spd.plot-1.png" height=450px>
+</div>
+
+## Pattern effects in adults
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/coh.by.pattern.plot-1.png" height=450px>
 </div>
 
 ## Children's RT
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/analyses/img/rt.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/rt.plot-1.png" height=450px>
 </div>
 
-## [Adults' *p*(correct)](https://rawgit.com/psu-psychology/cognitive/master/brown-bag/2015-09-09-gilmore/img/adamiak-pcorr.png)
+## Adults' RT
 
 <div class="centered">
-<img src="https://rawgit.com/psu-psychology/cognitive/master/brown-bag/2015-09-09-gilmore/img/adamiak-pcorr.png" width="800px">
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/rt.plot-1.png" height=450px>
 </div>
 
-## [Adults' RT](https://rawgit.com/psu-psychology/cognitive/master/brown-bag/2015-09-09-gilmore/img/adamiak-rt.png)
-
-<div class="centered">
-<img src="https://rawgit.com/psu-psychology/cognitive/master/brown-bag/2015-09-09-gilmore/img/adamiak-rt.png" width="800px">
-</div>
-
-## Behavioral Summary
+## Interim Summary
 
 - Children faster and more accurate to detect **fast** radial flow.
-- Adults faster and more accurate to detect **slow** radial flow.
+- Evoked brain responses to fast, radial flows
+
+## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png)
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
+</div>
+
+## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+</div>
 
 ## What influences developmental shifts?
 
@@ -382,6 +408,9 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 ## What influences developmental shifts?
 
 - [Jayaraman, Gilmore, & Raudies 2016](https://rawgit.com/gilmore-lab/ICIS-2016-New-Orleans/master/jayaraman-gilmore-raudies-ICIS-2016.html#7)
+- [[@gilmore_what_2015]](http://doi.org/10.1109/DEVLRN.2015.7345450)
+- [[@raudies_understanding_2012]](http://doi.org/10.1109/DevLrn.2012.6400584)
+- [[@raudies_visual_2014]](http://doi.org/10.1162/NECO_a_00645)
 
 ## What we've learned today
 
@@ -392,7 +421,7 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
     
 ## What we've learned today
 
-- Children's brain and behavioral responses to optic flow are adult-like
+- Children's brain and behavioral responses to optic flow are largely adult-like
 - Children show greater sensitivity to radial flows, like adults
 - But, prolonged sensitivity to faster vs. slower speeds
 
@@ -414,8 +443,12 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 ## The way forward
 
 - Reproducible methods, results, and inferences [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
-- [Databrary](http://databrary.org): share video, procedures/tasks, data
+- [Databrary.org](http://databrary.org): share video, procedures/tasks, data
+    + Video the **best** way to capture, share procedures
 - [Open Science Framework (OSF)](http://osf.io): share non-identifiable materials, data
+
+## The way forward
+
 - [RStudio](https://www.rstudio.com) or [Jupyter](http://jupyter.org) for reproducible notebooks, workflows, and analyses
 - [GitHub](http://github.com): share flat-files & code, version control
 - PSY 511 Spring 2016 course, <https://github.com/psu-psychology/psy-5xx-reproducible-research>
