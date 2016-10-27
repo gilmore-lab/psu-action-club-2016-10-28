@@ -14,11 +14,14 @@ output:
     keep_md: true
 ---
 
-## Go with the flow: The development of behavioral sensitivity and brain responses to optic flow {.flexbox .vcenter}
-
-
+----
 <div class="centered">
-### **Rick O. Gilmore**
+
+<span class="talktitle">
+**Go with the flow: The development of behavioral sensitivity and brain responses to optic flow**
+</span>
+
+### Rick O. Gilmore
 
 *Support*: NSF BCS-1147440, NSF BCS-1238599, NICHD U01-HD-076595
 </div>
@@ -31,16 +34,24 @@ output:
 - How do brain systems for processing optic flow develop?
 - What shapes these patterns of development?
   
+## Approach
+
+- **EEG measures** of brain responses to optic flow
+- **Psychophysical measures** of optic flow perception
+- **Computational simulations** of optic flow experiences across developmental milestones
+- **Empirical measures** of experienced optic flow across development from head-mounted video cameras
+
 ## Claims
 
-- Brain and behavioral responses to optic flow develop slowly
-- Changes in the statistics of experienced optic flow shape them
+- Brain and behavioral responses to optic flow develop throughout childhood
+    + Still immature in 5-8 year-olds
+- Changes in the statistics of experienced optic flow shape development in infancy, and likely beyond
 
 ## A pitch and a prediction
 
-- Open, transparent, and reproducible research practices -- including open data sharing -- have changed my work.
-- Within 10 years (maybe 5) it will be impossible to get funded or published if you have not adopted them.
-- It will be good for us and for science.
+- Open, transparent, and reproducible research practices -- including open data sharing -- have changed my work
+- Within 10 years (maybe 5) it will be impossible to get funded or published if you have not adopted them
+- It will be good for us and for science
     
 ## What is Optic Flow?
 
@@ -57,9 +68,18 @@ Cute kid playing hide and seek wearing GoPro camera.
 ## Types of Optic Flow {.flexbox .vcenter}
 
 <div class="centered">
-<img src="https://rawgit.com/gilmore-lab/ICDL-EpiRob-2015/master/figs/optic-flow-types.png" width="800px">
+<img src="https://rawgit.com/gilmore-lab/ICDL-EpiRob-2015/master/figs/optic-flow-types.png" width="900px">
 </div>
 
+## Why is optic flow important?
+
+- Geometry of environment
+    + Surface layout, orientation
+    + Object motion
+- Direction, speed of self-motion
+    + Rotation, translation
+    + Visual proprioception (eye vs. head vs. body)
+    
 ----
 
 | Flow Type | Movement Type |
@@ -68,14 +88,6 @@ Cute kid playing hide and seek wearing GoPro camera.
 | Rotation              | Rotation of head/body |
 | Up/down/left/right | Translation of eyes/head/body |
 
-## Why is optic flow important?
-
-- Direction, speed of self-motion
-    + Rotation, translation
-    + Visual proprioception (eye vs. head vs. body)
-- Geometry of environment
-    + Surface layout, orientation
-    + Object motion
 
 ## How Does Optic Flow Sensitivity Develop?
 
@@ -105,11 +117,11 @@ Cute kid playing hide and seek wearing GoPro camera.
     + fast + radial OR
     + slow + linear
     
-## Child Brain Responses to Flow {.smaller}
+## Brain Responses to Flow
 
 Gilmore, R.O., Thomas, A.L., & Fesi, J.D (2016). Children's brain responses to optic flow vary by pattern type and motion speed. PLoS ONE. [doi: 10.1371/journal.pone.0157911](http://doi.org/10.1371/journal.pone.0157911). Materials on Databrary at <http://doi.org/10.17910/B7QG6W>
 
-Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic flow and motion contrast across patterns and speeds. Vision Research, 100, 56–71. [doi:10.1016/j.visres.2014.04.004](http://doi.org/10.1016/j.visres.2014.04.004]. Materials on Databrary at <http://doi.org/http://doi.org/10.17910/B7101Z>.
+Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic flow and motion contrast across patterns and speeds. Vision Research, 100, 56–71. [doi:10.1016/j.visres.2014.04.004](http://doi.org/10.1016/j.visres.2014.04.004). Materials on Databrary at <http://doi.org/http://doi.org/10.17910/B7101Z>.
 
 ## Methods
 
@@ -169,6 +181,12 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
     + Individual means as random factors
 - Analyze channels independently with conservative $\alpha$ (.0005)
 
+----
+
+<div class="centered">
+<img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
+</div>
+
 ## [1F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 
 <div class="centered">
@@ -219,9 +237,9 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 
 ## 3F1 Results Summary
 
-- Highly responsive channels over medial cortex.
-- Speed, but not pattern tuned, 2 < 4 < 8 deg/s.
-- Amplitude and phase differences.
+- Highly responsive channels over medial cortex
+- Speed, but not pattern tuned, 2 < 4 = 8 deg/s
+- Amplitude and phase differences
 
 ## [1F2 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png)
 
@@ -236,6 +254,8 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
     + vs. pattern (lateral)
 - Radial & rotation != translation, phase and amplitude
 - Speed tuning (local and global)
+
+## Children vs. Adults
 
 ## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 
@@ -280,7 +300,7 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
     + Medial "speed" responses @ 3F1 and 1F2
 - Activate smaller # of channels, more focal
 
-## Behavioral responses {.smaller}
+## Behavioral Responses {.smaller}
 
 Adamiak, W., Thomas, A.L., Patel, S.M., & Gilmore. R.O. (2015, May). Adult observers’ sensitivity to optic flow varies by pattern and speed. Poster presented at the Vision Sciences Society meeting, St. Pete's Beach, FL. [Databrary](https://databrary.org/volume/73), [F1000 Research](http://f1000research.com/posters/1098278). [GitHub](https://https://github.com/gilmore-lab/moco-3-pattern-psychophysics).
 
@@ -306,26 +326,25 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 <iframe src="https://nyu.databrary.org/volume/218#panel-data">
 </iframe>
 
-<https://nyu.databrary.org/volume/218#panel-data>
+<https://nyu.databrary.org/volume/218>
 
 ## Methods
 
-- Linear mixed effects modeling (*lmer* in *R*)
+- Generalized linear mixed effects modeling (*lmer* in *R*)
+    + Random intercepts by participant
+    + Coherence, Pattern, Speed as fixed effects
+- Probit link function (2AFC)
 
 ## Children's responses *p*(correct)
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.plot-1.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.plot-1.png" height=500px>
 </div>
 
-## Children's responses *p*(correct)
+## Statistical modeling
 
-| Predictor | Statistic | p-value |
-|-----------|-----------|---------|
-| Coherence | *F*(1,408)=240.5 | .00000 |
-| Pattern   | *F*(1,428)=46.3 | .00000 |
-| Speed     | *F*(1,428)=12.87 | .00037 |
-| Coh x Pattern | *F*(1,428)=21.97 | .00000 |
+- [Children](https://rawgit.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/html/child.models.html)
+- [Adults](https://rawgit.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/html/adult.models.html)
 
 ## Speed effects in children
 
@@ -338,15 +357,6 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/coh.by.pattern.plot-1.png" height=450px>
 </div>
-
-## Adults' responses *p*(correct)
-
-| Predictor | Statistic | *p*-value |
-|-----------|-----------|---------|
-| Coherence | *F*(1,443)=426.87 | .00000 |
-| Pattern   | *F*(1,443)=6.56 | .012 |
-| Speed     | *F*(1,443)=2.79 | .099 |
-| Coh x Pattern | *F*(1,443)=17.01 | .00004 |
 
 ## Speed effects in adults
 
@@ -363,30 +373,32 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 ## Children's RT
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/rt.plot-1.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/rt.plot-1.png" height=500px>
 </div>
 
 ## Adults' RT
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/rt.plot-1.png" height=450px>
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/rt.plot-1.png" height=500px>
 </div>
 
 ## Interim Summary
 
-- Children faster and more accurate to detect **fast** radial flow.
-- Evoked brain responses to fast, radial flows
+- Children faster and more accurate to detect **fast**, radial flow
+- Children's evoked brain responses to fast, radial flow higher amplitude
+- Adults faster, more accurate to detect radial flow, small advantage for **slow** speeds.
+- Adults' EEG responses to speed vary by scalp location, radial patterns higher
 
-## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png)
+## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png)
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-channel-wise-effects-1.png" width="800px">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 </div>
 
-## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
+## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-speed-1.png)
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png" width="800px">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 </div>
 
 ## What influences developmental shifts?
@@ -412,18 +424,24 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 - [[@raudies_understanding_2012]](http://doi.org/10.1109/DevLrn.2012.6400584)
 - [[@raudies_visual_2014]](http://doi.org/10.1162/NECO_a_00645)
 
-## What we've learned today
+## Summary of simulation & head camera analyses
 
 - Infants commonly experience fast, laminar flows.
     + Head, eye movements >> forward-facing locomotion
-- Transition from infancy to adulthood shaped by changing statistics of visual input.
+- Transition from infancy to adulthood shaped by changing statistics of visual input
     + Body dimensions, posture, locomotor speed
     
-## What we've learned today
+## Summing up
 
-- Children's brain and behavioral responses to optic flow are largely adult-like
-- Children show greater sensitivity to radial flows, like adults
-- But, prolonged sensitivity to faster vs. slower speeds
+- Brain and behavioral responses to optic flow develop throughout childhood
+    + Still immature in 5-8 year-olds
+- Changes in the statistics of experienced optic flow shape development in infancy, and likely beyond
+
+----
+
+<div class="centered">
+<img src="http://www.brainbodybeauty.com/art/news_attachments/Go_With_the_Flow.png" height=500px>
+</div>
 
 ## A Pitch
 
@@ -438,7 +456,7 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 
 ## [[@szucs_empirical_2016]](http://doi.org/10.1101/071530)
 
-<div class="smaller">We have empirically assessed the distribution of published effect sizes and estimated power by extracting more than 100,000 statistical records from about 10,000 cognitive neuroscience and psychology papers published during the past 5 years...</div>p value errors positively correlated with journal impact factors. False report probability is likely to **exceed 50% for the whole literature**. In light of our findings the recently reported low replication success in psychology is realistic and worse performance may be expected for cognitive neuroscience.
+"We have empirically assessed the distribution of published effect sizes and estimated power by extracting more than 100,000 statistical records from about 10,000 cognitive neuroscience and psychology papers published during the past 5 years...**False report probability is likely to exceed 50% for the whole literature. In light of our findings the recently reported low replication success in psychology is realistic** and worse performance may be expected for cognitive neuroscience."
 
 ## The way forward
 
@@ -449,7 +467,7 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 
 ## The way forward
 
-- [RStudio](https://www.rstudio.com) or [Jupyter](http://jupyter.org) for reproducible notebooks, workflows, and analyses
+- [RStudio](https://www.rstudio.com) or [Jupyter](http://jupyter.org) for reproducible notebooks, workflows, analyses, & presentations
 - [GitHub](http://github.com): share flat-files & code, version control
 - PSY 511 Spring 2016 course, <https://github.com/psu-psychology/psy-5xx-reproducible-research>
 
