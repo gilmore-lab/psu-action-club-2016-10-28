@@ -117,7 +117,7 @@ Cute kid playing hide and seek wearing GoPro camera.
     + fast + radial OR
     + slow + linear
     
-## Brain Responses to Flow
+## Brain Responses to Flow {.smaller}
 
 Gilmore, R.O., Thomas, A.L., & Fesi, J.D (2016). Children's brain responses to optic flow vary by pattern type and motion speed. PLoS ONE. [doi: 10.1371/journal.pone.0157911](http://doi.org/10.1371/journal.pone.0157911). Materials on Databrary at <http://doi.org/10.17910/B7QG6W>
 
@@ -176,16 +176,11 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 
 ## Data analysis
 
-- Use mixed effects MANOVA to capture phase, amplitude
+- Mixed effects MANOVA to capture phase, amplitude
     + *Pattern* (radial, rotation, linear) and *Speed* (2, 4, 8 deg/s) as fixed effects
     + Individual means as random factors
 - Analyze channels independently with conservative $\alpha$ (.0005)
 
-----
-
-<div class="centered">
-<img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
-</div>
 
 ## [1F1 Channel-Wise Results](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-channel-wise-effects-1.png)
 
@@ -198,6 +193,13 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px">
 </div>
+
+----
+
+<div class="centered">
+<img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
+</div>
+
 
 ## [Complex Domain Plot of 1F1 Channels](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-complex-domain-plots-pattern-1.png)
 
@@ -229,6 +231,13 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 </div>
 
+----
+
+<div class="centered">
+<img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
+</div>
+
+
 ## [Complex Domain Plot of 3F1 Channels](https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-complex-domain-plots-speed-1.png)
 
 <div class="centered">
@@ -247,12 +256,25 @@ Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic fl
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-channel-wise-effects-1.png" width="800px">
 </div>
 
+## [1F2 Channels *p* < .0005](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png)
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F2/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
+</div>
+
+----
+
+<div class="centered">
+<img src="https://rawgit.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/figure-egi-channel-locations-1.png" height=500px>
+</div>
+
+
 ## Results Summary
 
 - Anatomical separation of responses
     + speed (medial)
     + vs. pattern (lateral)
-- Radial & rotation != translation, phase and amplitude
+- Radial & rotation != translation, phase & amplitude
 - Speed tuning (local and global)
 
 ## Children vs. Adults
@@ -310,9 +332,9 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 
 - Time-varying optic flow
     + Radial, linear
-    + {2, 8} deg/s
-    + {5, 10, 15, 20%} coherence (adults)
-    + {15, 30, 45, 60%} and {20, 40, 60, 80%} (children)
+    + 2, 8 deg/s
+    + 5, 10, 15, 20% coherence (adults)
+    + 15, 30, 45, 60% and 20, 40, 60, 80% (children)
     
 ## Methods
 
@@ -384,10 +406,10 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 
 ## Interim Summary
 
-- Children faster and more accurate to detect **fast**, radial flow
-- Children's evoked brain responses to fast, radial flow higher amplitude
-- Adults faster, more accurate to detect radial flow, small advantage for **slow** speeds.
-- Adults' EEG responses to speed vary by scalp location, radial patterns higher
+>- Children faster and more accurate to detect **fast**, radial flow
+>- Adults faster, more accurate to detect radial flow, small advantage for **slow** speeds.
+>- Children's evoked brain responses to fast, radial flow higher amplitude
+>- Adults' EEG responses to speed vary by scalp location, radial patterns higher
 
 ## [Children's 3F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png)
 
@@ -395,10 +417,10 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 <img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/3F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
 </div>
 
-## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-speed-1.png)
+## [Children's 1F1](https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png) 
 
 <div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-speed-1.png" width="800px">
+<img src="https://raw.githubusercontent.com/gilmore-lab/gilmore-thomas-fesi-2015/master/figs/1F1/child/figX-vector-amplitude-barplots-pattern-1.png" width="800px">
 </div>
 
 ## What influences developmental shifts?
@@ -406,16 +428,7 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 - Predictions
     + Fast, **linear** flows common in natural experiences of infants
     + Eye/head movements, head instability
-    + [@raudies_visual_2014; @raudies_understanding_2012]
-    
-----
-
-- Conjectures
-    + Geometry of environment?
-    + Head/body posture changes?
-    + Carrying vs. independent locomotion?
-    + Cultural differences in home environment, relatives, carrying practices?
-    + Changes across developmental milestones?
+    + Infants' motion "prior" is not slow [@raudies_visual_2014; @raudies_understanding_2012]
     
 ## What influences developmental shifts?
 
