@@ -345,6 +345,12 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
     
 ----
 
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/adult-laminar-radial/vss-2015-poster/img/optic-flow-psychophysics-display.png" height=500px>
+</div>
+    
+----
+
 <iframe src="https://nyu.databrary.org/volume/218#panel-data">
 </iframe>
 
@@ -363,6 +369,13 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.plot-1.png" height=500px>
 </div>
 
+## Adults' responses *p*(correct)
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.plot-1.png" height=500px>
+</div>
+
+
 ## Statistical modeling
 
 - [Children](https://rawgit.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/html/child.models.html)
@@ -374,16 +387,16 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/p.corr.by.spd.plot-1.png" height=450px>
 </div>
 
-## Pattern effects in children
-
-<div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/coh.by.pattern.plot-1.png" height=450px>
-</div>
-
 ## Speed effects in adults
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/adult/p.corr.by.spd.plot-1.png" height=450px>
+</div>
+
+## Pattern effects in children
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/moco-3-pattern-psychophysics/master/child-laminar-radial/img/child/coh.by.pattern.plot-1.png" height=450px>
 </div>
 
 ## Pattern effects in adults
@@ -406,8 +419,8 @@ Gilmore, R.O., Seisler, A.R., Shade, M.A., & O'Neill, M.J. (in prep). School-age
 
 ## Interim Summary
 
->- Children faster and more accurate to detect **fast**, radial flow
->- Adults faster, more accurate to detect radial flow, small advantage for **slow** speeds.
+>- Children faster and more accurate to detect **fast**, **radial** flow
+>- Adults faster, more accurate to detect **radial** flow, small advantage for **slow** speeds
 >- Children's evoked brain responses to fast, radial flow higher amplitude
 >- Adults' EEG responses to speed vary by scalp location, radial patterns higher
 
